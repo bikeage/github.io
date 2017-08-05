@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Eliot Logan'
 SITENAME = u'skewed'
-SITEURL = ''
+SITEURL = 'http://bikeage.github.io'
 
 PATH = 'content'
 
