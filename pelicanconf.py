@@ -35,6 +35,8 @@ DEFAULT_PAGINATION = 1
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
+THEME = 'attila'
+
 MARKUP = ('md', 'ipynb')
 
 PLUGIN_PATH = './plugins'
