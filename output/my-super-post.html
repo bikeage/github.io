@@ -14,17 +14,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="referrer" content="origin" />
   <meta name="generator" content="Pelican" />
-  <link href="http://bikeage.github.io/" rel="canonical" />
+  <link href="./" rel="canonical" />
 
   <!-- Feed -->
-        <link href="http://bikeage.github.io/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="skewed Full Atom Feed" />
-          <link href="http://bikeage.github.io/feeds/python.atom.xml" type="application/atom+xml" rel="alternate" title="skewed Categories Atom Feed" />
 
-  <link href="http://bikeage.github.io/theme/css/style.css" type="text/css" rel="stylesheet" />
+  <link href="./theme/css/style.css" type="text/css" rel="stylesheet" />
 
   <!-- Code highlight color scheme -->
-      <link href="http://bikeage.github.io/theme/css/code_blocks/github.css" rel="stylesheet">
+      <link href="./theme/css/code_blocks/github.css" rel="stylesheet">
 
+    <!-- CSS specified by the user -->
+
+
+    <link href="./assets/css/myblog.css" type="text/css" rel="stylesheet" />
 
   <!-- Custom fonts -->
   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,300' rel='stylesheet' type='text/css' />
@@ -38,7 +40,7 @@
   <![endif]-->
 
 
-    <link href="http://bikeage.github.io/my-super-post.html" rel="canonical" />
+    <link href="./my-super-post.html" rel="canonical" />
 
         <meta name="description" content="Short version for index and feeds">
 
@@ -55,17 +57,26 @@
 <meta property="og:title" content="My super title"/>
 <meta property="og:description" content="Short version for index and feeds"/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="http://bikeage.github.io/my-super-post.html"/>
+<meta property="og:url" content="./my-super-post.html"/>
 <meta property="og:type" content="article"/>
 <meta property="article:published_time" content="2017-08-04 04:33:00-07:00"/>
 <meta property="article:modified_time" content="2017-08-04 04:33:00-07:00"/>
-<meta property="article:author" content="http://bikeage.github.io/author/eliot-logan.html">
+<meta property="article:author" content="./author/eliot-logan.html">
+  <meta property="article:publisher" content="http://facebook.com/eliotlogan" />
 <meta property="article:section" content="Python"/>
 <meta property="article:tag" content="pelican"/>
 <meta property="article:tag" content="publishing"/>
-<meta property="og:image" content="http://bikeage.github.io/theme/images/post-bg.jpg">
+<meta property="og:image" content="./static/my_image.png">
 
 <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@eliotlogan">
+    <meta name="twitter:title" content="My super title">
+    <meta name="twitter:url" content="./my-super-post.html">
+
+        <meta name="twitter:image:src" content="./static/my_image.png">
+
+      <meta name="twitter:description" content="Short version for index and feeds">
 
 <script type="application/ld+json">
 {
@@ -78,10 +89,10 @@
   "author": {
     "@type": "Person",
     "name": "Eliot Logan",
-    "url": "http://bikeage.github.io/author/eliot-logan.html"
+    "url": "./author/eliot-logan.html"
   },
-  "image": "http://bikeage.github.io/theme/images/post-bg.jpg",
-  "url": "http://bikeage.github.io/my-super-post.html",
+  "image": "./static/my_image.png",
+  "url": "./my-super-post.html",
   "description": "Short version for index and feeds"
 }
 </script>
@@ -110,7 +121,7 @@
       <div class="inner">
         <nav id="navigation">
             <span id="home-button" class="nav-button">
-                <a class="home-button" href="http://bikeage.github.io/" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
+                <a class="home-button" href="./" title="Home"><i class="ic ic-arrow-left"></i> Home</a>
             </span>
           <span id="menu-button" class="nav-button">
             <a class="menu-button"><i class="ic ic-menu"></i> Menu</a>
@@ -119,12 +130,12 @@
         <h1 class="post-title">My super title</h1>
         <!-- TODO : Proper class for headline -->
         <span class="post-meta">
-                <a href="http://bikeage.github.io/author/eliot-logan.html">Eliot Logan</a>
+                <a href="./author/eliot-logan.html">Eliot Logan</a>
             | <time datetime="Fri 04 August 2017">Fri 04 August 2017</time>
         </span>
         <!-- TODO : Modified check -->
             <span class="post-meta"> | Updated on Fri 04 August 2017</span>
-            <div class="post-cover cover" style="background-image: url('http://bikeage.github.io/theme/images/post-bg.jpg')">
+            <div class="post-cover cover" style="background-image: url('./static/my_image.png')">
       </div>
     </header>
 
@@ -141,20 +152,20 @@
 
             <section class="post-info">
                 <div class="post-share">
-                    <a class="twitter" href="https://twitter.com/share?text=My super title&amp;url=http://bikeage.github.io/my-super-post.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+                    <a class="twitter" href="https://twitter.com/share?text=My super title&amp;url=./my-super-post.html" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
                     <i class="ic ic-twitter"></i><span class="hidden">Twitter</span>
                     </a>
-                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://bikeage.github.io/my-super-post.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+                    <a class="facebook" href="https://www.facebook.com/sharer/sharer.php?u=./my-super-post.html" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
                     <i class="ic ic-facebook"></i><span class="hidden">Facebook</span>
                     </a>
-                    <a class="googleplus" href="https://plus.google.com/share?url=http://bikeage.github.io/my-super-post.html" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+                    <a class="googleplus" href="https://plus.google.com/share?url=./my-super-post.html" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
                     <i class="ic ic-googleplus"></i><span class="hidden">Google+</span>
                     </a>
                     <div class="clear"></div>
                 </div>
 
                 <aside class="post-tags">
-<a href="http://bikeage.github.io/tag/pelican.html">pelican</a><a href="http://bikeage.github.io/tag/publishing.html">publishing</a>                </aside>
+<a href="./tag/pelican.html">pelican</a><a href="./tag/publishing.html">publishing</a>                </aside>
 
                 <div class="clear"></div>
 
@@ -184,7 +195,7 @@
     </footer>
   </section>
 
-  <script type="text/javascript" src="http://bikeage.github.io/theme/js/script.js"></script>
+  <script type="text/javascript" src="./theme/js/script.js"></script>
 
 </body>
 </html>
